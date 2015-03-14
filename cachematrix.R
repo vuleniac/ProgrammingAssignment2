@@ -7,7 +7,7 @@
 #   3- setinv: caches the inverse of the matrix
 #   4- getinv: returns the cached inverse of the matrix
 
-makeCacheMatrix <- function(x = numeric()) {
+makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
     set <- function(y) {
         x <<- y                                     # Caching matrix
